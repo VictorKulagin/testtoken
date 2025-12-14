@@ -59,7 +59,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "deploy": "node Truffle/scripts/deployContract.js",
-    "smoke": "node smoke-test.mjs",
+    "smoke": "node ./scripts/smoke-test.mjs",
     "devchain": "node Truffle/scripts/devChain.js",
     "watch:events": "moralis-admin-cli add-contract",
     "connect": "moralis-admin-cli connect-local-devchain"
